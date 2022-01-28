@@ -8,6 +8,55 @@
 .center{
     width: 33%;
 }
+
+.center_wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+.center_icon{
+    border: black solid 10px;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.center_icon img{
+    padding: 30px;
+}
+
+img{
+    width: 70%;
+}
+
+.hidden{
+    display: none;
+}
+
+.center_reload{
+    width: 30px;
+    height: 30px;
+    margin: 60px auto;
+}
+
+.time{
+    background-color: white;
+    display: block;
+    cursor: pointer;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    appearance: none;
+    font-size: 30px;
+}
+
 .right{
     width: 33%;
 }
