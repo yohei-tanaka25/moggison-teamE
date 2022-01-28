@@ -1,0 +1,14 @@
+.left{
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+  }
+.left button{
+    color: white;
+    width: 98px;
+    height: 63px;
+    background: none;
+    font-size: 20px;
+}
