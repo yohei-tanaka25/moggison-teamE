@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+}
+
+.reft{
+    width: 33%;
+}
+.center{
+    width: 33%;
+}
+.right{
+    width: 33%;
+}
