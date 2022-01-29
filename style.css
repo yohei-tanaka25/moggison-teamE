@@ -1,23 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 .main{
     display: flex;
 }
 
 .left{
-    width: 33%;
     height: 80%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    flex: 1;
 }
 
 .left button{
-    color: white;
-    width: 98px;
-    height: 63px;
-    background: none;
-    font-size: 20px; 
+    color: white; 
+    width: 30%;
+    height: 10%;
+    /* background: none;  */
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: all 0.5s ease;
 }
+
+.left button:hover {
+    background: white;
+    color: black;
+}
+
 
 .center{
     width: 33%;
