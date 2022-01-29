@@ -2,9 +2,23 @@
     display: flex;
 }
 
-.reft{
+.left{
     width: 33%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
+
+.left button{
+    color: white;
+    width: 98px;
+    height: 63px;
+    background: none;
+    font-size: 20px; 
+}
+
 .center{
     width: 33%;
 }
