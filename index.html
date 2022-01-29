@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <title>モッギソン（瞑想アプリ）</title>
 </head>
 
 <body>
-    <main>
+    <main class="main">
         <!-- 左部分（ゆうじん） -->
         <div class="left">
             <button data-time="120" class="short_minutes">2 Minutes</button>
@@ -23,14 +24,30 @@
 
         <!-- 中央部分（まなき） -->
         <div class="center">
-
+            <div class="center_wrapper">
+                <div class="center_icon" id="center_icon">
+                    <div class="start" id="start">
+                        <img src="start.png" alt="再生">
+                    </div>
+                    <div class="stop hidden" id="stop">
+                        <img src="stop.png" alt="停止">
+                    </div>
+                </div>
+                <div class="center_reload" id="center_reload">
+                    <img src="reroad.jpg" alt="再生">
+                </div>
+                <div class="center_time">
+                    <input type="button" name="time" class="time" value="1:00">
+                </div>
+            </div>
         </div>
         <!-- 中央部分（まなき）　ここまで -->
 
         <!-- 右部分（ようへい） -->
         <div class="right">
-            <div class="right_button_weather">
-
+            <div class="right_weather">
+                <button onclick="cloud()"><i class="fas fa-cloud-showers-heavy"></i></button>
+                <button onclick="sun()"><i class="fas fa-sun"></i></button>
             </div>
 
         </div>
