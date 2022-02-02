@@ -1,40 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
 .main{
     display: flex;
 }
 
 .left{
+    width: 33%;
     height: 80%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    flex: 1;
 }
 
 .left button{
-    color: white; 
-    width: 30%;
-    height: 10%;
-    /* background: none;  */
-    font-size: 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    border: 2px solid white;
-    transition: all 0.5s ease;
+    color: white;
+    width: 98px;
+    height: 63px;
+    background: none;
+    font-size: 20px; 
 }
-
-.left button:hover {
-    background: white;
-    color: black;
-}
-
 
 .center{
     width: 33%;
@@ -90,4 +73,40 @@ img{
 
 .right{
     width: 33%;
+}
+
+.right_weather_button{
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+.right_weather_button button{
+    border: none;
+    height: 120px;
+    width: 120px;
+    padding: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.button_img{
+    color:#fff;
+    font-size: 40px;
+}
+.rain_button{
+    background: #4972a1;
+}
+
+.sun_button{
+    background: #a14f49;
+}
+video {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: -10;
 }
