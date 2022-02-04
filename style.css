@@ -1,9 +1,10 @@
 .main{
     display: flex;
+    padding-top: 8rem;
 }
 
 .left{
-    height: 80%;
+    height: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -12,15 +13,16 @@
 }
 
 .left button{
-    color: white; 
+    color: rgb(199, 190, 190); 
     width: 30%;
-    height: 10%;
+    height: 100%;
     /* background: none;  */
     font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
     border: 2px solid white;
     transition: all 0.5s ease;
+    margin-top:5rem;
 }
 
 .left button:hover {
@@ -42,16 +44,21 @@
 }
 
 .center_icon{
-    border: black solid 10px;
+    border: #fff solid 10px;
     border-radius: 100%;
     width: 200px;
     height: 200px;
     text-align: center;
 }
 
-.center_icon img{
-    padding: 30px;
+.center_icon i{
+    margin-top: 3.8rem;
+    font-size: 6rem;
+    color: white;
+    
 }
+
+
 
 img{
     width: 70%;
@@ -67,11 +74,18 @@ img{
     margin: 60px auto;
 }
 
+.center_reload i{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
 .time{
-    background-color: white;
+    background-color: transparent;
     display: block;
     cursor: pointer;
     outline: none;
+    color: white;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
@@ -79,6 +93,8 @@ img{
     appearance: none;
     font-size: 30px;
 }
+
+
 
 .right{
     width: 33%;
