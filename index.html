@@ -27,17 +27,20 @@
             <div class="center_wrapper">
                 <div class="center_icon" id="center_icon">
                     <div class="start" id="start">
-                        <img src="start.png" alt="再生">
+                        <!-- <img src="start.png" class="inner_icon" alt="再生"> -->
+                        <i class="fas fa-play"></i>
                     </div>
                     <div class="stop hidden" id="stop">
-                        <img src="stop.png" alt="停止">
+                        <!-- <img src="stop.png"  class="inner_icon" alt="停止"> -->
+                        <i class="fas fa-stop"></i>
                     </div>
                 </div>
                 <div class="center_reload" id="center_reload">
-                    <img src="reroad.jpg" alt="再生">
+                    <!-- <img src="reroad.jpg" alt="再生"> -->
+                    <i class="fas fa-sync-alt"></i>
                 </div>
                 <div class="center_time">
-                    <input type="button" name="time" class="time" value="1:00">
+                    <h3 class="time-display time">0:00</h3>
                 </div>
             </div>
         </div>
@@ -46,14 +49,17 @@
         <!-- 右部分（ようへい） -->
         <div class="right">
             <div class="right_weather_button">
-                <button class="rain_button" onclick="rain()"><i class="fas fa-cloud-showers-heavy button_img"></i></button>
-                <button class="sun_button" onclick="sun()"><i class="fas fa-sun button_img"></i></button>
+                <button class="rain_button"  data-sound="./sounds/Hometown.mp3" data-video="./video/Mountains - 59291.mp4"><i class="fas fa-cloud-showers-heavy button_img"></i></button>
+                <button class="sun_button"   data-sound="./sounds/rain.mp3" data-video="./video/Fish - 85674.mp4"><i class="fas fa-sun button_img"></i></button>
             </div>
 
         </div>
         <!-- 右部分（ようへい）　ここまで -->
     </main>
     <video  class="video" src="./video/Mountains - 59291.mp4" loop autoplay muted></video>
+    <audio class="song">
+        <source src="./sounds/Hometown.mp3" />
+    </audio>
 
 
     <script src="./script.js"></script>
